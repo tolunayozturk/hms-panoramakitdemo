@@ -30,8 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         /*
         This is just for demo purposes. In your app, handle permissions properly.
-        For this demo, this is not needed but in a real app you might want to
-        load an image from user's photo library.
+        The HMS Core Panorama SDK requires the read and write permissions on external storage.
          */
         val permissions = arrayOf(
             Manifest.permission.READ_EXTERNAL_STORAGE,
