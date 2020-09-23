@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loadWithoutTypeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load image without a specified panorama type" />
+
+    <Button
+        android:id="@+id/loadWithTypeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load image with a specified panorama type" />
+
+    <Button
+        android:id="@+id/loadWithLocalInterfaceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panorama With Local Interface" />
+</LinearLayout>
